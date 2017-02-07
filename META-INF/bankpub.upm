@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="gb2312"?>
+<module name="zjsh_bankpub">
+ 
+  <public>
+    <component  priority="0" singleton="true" remote="true" supportAlias="false" tx="CMT">
+      <interface>nc.itf.bankpub.pub.IDealCode</interface>
+      <implementation>nc.impl.bankpub.pub.ImplDealCode</implementation>
+    </component>
+    
+    <component  priority="0" singleton="true" remote="true" supportAlias="false" tx="CMT">
+    <interface>nc.itf.bankpub.pub.IRespondCode</interface>
+      <implementation>nc.impl.bankpub.pub.ImplRespondCode</implementation>
+    </component>
+    
+    <component  priority="0" singleton="true" remote="true" supportAlias="false" tx="CMT">
+     <interface>nc.itf.bankpub.pub.IEspecialSubj</interface>
+      <implementation>nc.impl.bankpub.pub.ImplEspecialSubj</implementation>
+    </component>
+    
+    <component  priority="0" singleton="true" remote="true" supportAlias="false" tx="CMT">
+    <interface>nc.itf.bankpub.pub.ISystemType</interface>  
+      <implementation>nc.impl.bankpub.pub.ImplSystemType</implementation>
+    </component>
+    
+    <component  priority="0" singleton="true" remote="true" supportAlias="false" tx="CMT">
+     <interface>nc.itf.bankpub.pub.IPubTools</interface>
+      <implementation>nc.impl.bankpub.pub.ImplPubTools</implementation>
+    </component>   
+    
+    <component  priority="0" singleton="true" remote="true" supportAlias="false" tx="CMT"> 
+    <interface>nc.itf.bankpub.pub.ICurrContrast</interface>
+      <implementation>nc.impl.bankpub.pub.ImplCurrContrast</implementation>
+    </component>
+    
+    <component  priority="0" singleton="true" remote="true" supportAlias="false" tx="CMT">
+    <interface>nc.itf.bankpub.pub.IFileDefine</interface>
+      <implementation>nc.impl.bankpub.pub.ImplFileDefine</implementation>
+    </component>
+    
+    <component  priority="0" singleton="true" remote="true" supportAlias="false" tx="CMT">
+    <interface>nc.itf.bankpub.pub.ISubjContrast</interface>
+      <implementation>nc.impl.bankpub.pub.ImplSubjContrast</implementation>
+    </component>
+    
+    <component  priority="0" singleton="true" remote="true" supportAlias="false" tx="CMT">
+    <interface>nc.itf.bankpub.pub.IVoucherElement</interface>
+      <implementation>nc.impl.bankpub.pub.ImplVoucherElement</implementation>
+    </component>
+    
+    <component  priority="0" singleton="true" remote="true" supportAlias="false" tx="CMT">
+    <interface>nc.itf.bankpub.pub.IRuleSet</interface>
+      <implementation>nc.impl.bankpub.pub.ImplRuleSet</implementation>
+    </component>
+    
+    <component  priority="0" singleton="true" remote="true" supportAlias="false" tx="CMT">
+    <interface>nc.itf.bankpub.pub.ISubjBalRuleSet</interface>
+      <implementation>nc.impl.bankpub.pub.ImplSubjBalRuleSet</implementation>
+    </component>
+    
+    <component  priority="0" singleton="true" remote="true" supportAlias="false" tx="CMT">
+    <interface>nc.itf.bankpub.pub.IDeptSubjContrast</interface>
+      <implementation>nc.impl.bankpub.pub.ImplDeptSubjContrast</implementation>
+    </component>
+    
+    <component  priority="0" singleton="true" remote="true" supportAlias="false" tx="CMT">
+     <interface>nc.itf.bankpub.pub.IBankSubjContrast</interface>
+      <implementation>nc.impl.bankpub.pub.ImplBankSubjContrast</implementation>
+    </component> 
+    
+    <component  priority="0" singleton="true" remote="true" supportAlias="false" tx="CMT">
+    <interface>nc.itf.bankpub.pub.IBankContrast</interface>
+      <implementation>nc.impl.bankpub.pub.ImplBankContrast</implementation>
+    </component>s   
+     <component  priority="0" singleton="true" remote="true" supportAlias="false" tx="CMT">
+    <interface>nc.itf.bankpub.pub.IVouType</interface>
+      <implementation>nc.impl.bankpub.pub.ImplVouType</implementation>
+    </component>   
+    
+  </public>
+</module>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="proxy">
+  <public>
+    <component name="nc.itf.bankpub.pub.BankpubEJB" priority="0" singleton="true" remote="true" tx="CMT" supportAlias="true">
+      <interface>nc.itf.bankpub.pub.IBankContrast</interface>
+      <interface>nc.itf.bankpub.pub.IBankSubjContrast</interface>
+      <interface>nc.itf.bankpub.pub.ICurrContrast</interface>
+      <interface>nc.itf.bankpub.pub.IDealCode</interface>
+      <interface>nc.itf.bankpub.pub.IDeptSubjContrast</interface>
+      <interface>nc.itf.bankpub.pub.IEspecialSubj</interface>
+      <interface>nc.itf.bankpub.pub.IFileDefine</interface>
+      <interface>nc.itf.bankpub.pub.IPubTools</interface>
+      <interface>nc.itf.bankpub.pub.IRespondCode</interface>
+      <interface>nc.itf.bankpub.pub.IRuleSet</interface>
+      <interface>nc.itf.bankpub.pub.ISubjBalRuleSet</interface>
+      <interface>nc.itf.bankpub.pub.ISubjContrast</interface>
+      <interface>nc.itf.bankpub.pub.ISystemType</interface>
+      <interface>nc.itf.bankpub.pub.IVoucherElement</interface>
+      <interface>nc.itf.bankpub.pub.IVouType</interface>
+      <implementation>nc.impl.bankpub.pub.BankpubEJB</implementation>
+      <property name="implVouType">
+        <ref>ImplVouType</ref>
+      </property>
+      <property name="iRuleSet">
+        <ref>IRuleSet</ref>
+      </property>
+      <property name="iEspecialSubj">
+        <ref>IEspecialSubj</ref>
+      </property>
+      <property name="iCurrContrast">
+        <ref>ICurrContrast</ref>
+      </property>
+      <property name="iBankContrast">
+        <ref>IBankContrast</ref>
+      </property>
+      <property name="iDealCode">
+        <ref>IDealCode</ref>
+      </property>
+      <property name="iSystemType">
+        <ref>ISystemType</ref>
+      </property>
+      <property name="iBankSubjContrast">
+        <ref>IBankSubjContrast</ref>
+      </property>
+      <property name="iVoucherElement">
+        <ref>IVoucherElement</ref>
+      </property>
+      <property name="iDeptSubjContrast">
+        <ref>IDeptSubjContrast</ref>
+      </property>
+      <property name="iFileDefine">
+        <ref>IFileDefine</ref>
+      </property>
+      <property name="iSubjContrast">
+        <ref>ISubjContrast</ref>
+      </property>
+      <property name="iSubjBalRuleSet">
+        <ref>ISubjBalRuleSet</ref>
+      </property>
+      <property name="iRespondCode">
+        <ref>IRespondCode</ref>
+      </property>
+      <property name="iPubTools">
+        <ref>IPubTools</ref>
+      </property>
+    </component>
+  </public>
+  <private />
+</module>
+

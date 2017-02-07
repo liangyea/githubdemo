@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding='gb2312'?>
+<root docType="(Java lang)Middleware depoly parameter">
+	<ejbBeans>
+		<beanName>nc.itf.bankpub.pub.BankpubEJB</beanName>
+		<ejb_ref_name>nc.itf.bankpub.pub.BankpubEJBEjbBean</ejb_ref_name>
+		<HomeClassName>nc.itf.bankpub.pub.BankpubEJBHome</HomeClassName>
+		<PrimaryKeyClassName></PrimaryKeyClassName>
+		<RemoteInterfaceClassName>nc.itf.bankpub.pub.BankpubEJBEjbObject</RemoteInterfaceClassName>
+		<beSession>true</beSession>
+		<beStatelessSession>true</beStatelessSession>
+		<Description>BankpubEJB's Description.</Description>
+		<envParameter>
+			<ParameterName>envParameter</ParameterName>
+			<ParameterValue>ppt</ParameterValue>
+		</envParameter>
+		<methodTransectionType>
+			<methodName>void delete()</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>200</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void maintainBankContrast(nc.vo.bankpub.bankcontrast.BankContrastVO[] arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>201</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void deleteBankContrastVO(nc.vo.bankpub.bankcontrast.BankContrastVO arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>202</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>nc.vo.bankpub.bankcontrast.BankContrastVO[] queryBankContrastVOs(java.lang.String arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>203</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void insertBankContrastVOs(nc.vo.bankpub.bankcontrast.BankContrastVO[] arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>204</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void updateBankContrastVO(nc.vo.bankpub.bankcontrast.BankContrastVO arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>205</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>nc.vo.bankpub.bankcontrast.BankContrastVO[] queryBankContrastVOsDept(java.lang.String arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>206</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>nc.vo.bankpub.bankcontrast.BankContrastVO[] queryBankContrastVOsByPkglorgbook(java.lang.String arg0 ,java.lang.String arg1 )</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>207</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void deleteBankSubjContrastVO(nc.vo.bankpub.subjcontrast.BankSubjContrastVO arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>208</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void insertBankSubjContrastVOs(nc.vo.bankpub.subjcontrast.BankSubjContrastVO[] arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>209</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>nc.vo.bankpub.subjcontrast.BankSubjContrastVO[] queryAllBankSubjContrastVO()</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>210</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void updateBankSubjContrastVO(nc.vo.bankpub.subjcontrast.BankSubjContrastVO arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>211</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>nc.vo.bankpub.subjcolshow.SubjColShowVO[] queryAllSubjColShowVO()</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>212</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void insertSubjColShowVO(nc.vo.bankpub.subjcolshow.SubjColShowVO arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>213</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void updateSubjColShowVO(nc.vo.bankpub.subjcolshow.SubjColShowVO arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>214</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>java.lang.String queryBankSubjContrastVOByVO(nc.vo.bankpub.subjcontrast.BankSubjContrastVO arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>215</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void copySubjcontrast(java.lang.String arg0 ,java.lang.String arg1  ,java.lang.String[] arg2 )</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>216</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void deleteBankSubjByPksystempkglorgbook(java.lang.String arg0 ,java.lang.String[] arg1 )</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>217</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>nc.vo.bankpub.subjcontrast.BankSubjContrastVO[] queryBankSubjContrastVOByPkglorgbook(java.lang.String arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>218</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void saveAll(nc.vo.bankpub.currcontrast.CurrContrastVO[] arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>219</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>nc.vo.bankpub.currcontrast.CurrContrastVO[] queryAll()</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>220</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>nc.vo.bankpub.dealcode.DealCodeVO[] queryDealCode()</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>221</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void updateDealCode(nc.vo.bankpub.dealcode.DealCodeVO arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>222</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>java.lang.String queryDealCodeByIndex(java.lang.String arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>223</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>nc.vo.bankpub.subjcontrast.NCSubjContrastVO[] queryNCSubjContrastbyPKDept(java.lang.String arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>224</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>nc.vo.bd.b02.AccsubjVO[] queryAccsubjbyPKDept(java.lang.String arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>225</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>nc.vo.bd.b04.DeptdocVO[] queryAllDeptdoc()</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>226</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void deleteEspecialSubjVOByVO(nc.vo.bankpub.especialsubj.EspecialSubjVO arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>227</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void insertArrayEspecialSubjVO(nc.vo.bankpub.especialsubj.EspecialSubjVO[] arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>228</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>nc.vo.bankpub.especialsubj.EspecialSubjVO[] queryAllEspecialSubjVOs()</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>229</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void updateEspecialSubjVOByVO(nc.vo.bankpub.especialsubj.EspecialSubjVO arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>230</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void deleteFileDefineVOByVO(nc.vo.bankpub.filedefine.FileDefineVO arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>231</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void insertArrayFileDefineVO(nc.vo.bankpub.filedefine.FileDefineVO[] arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>232</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>nc.vo.bankpub.filedefine.FileDefineVO[] queryAllFileDefineVOs()</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>233</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void updateFileDefineVOByVO(nc.vo.bankpub.filedefine.FileDefineVO arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>234</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>java.lang.String[] split(java.lang.String arg0 ,java.lang.String arg1 )</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>235</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>java.lang.String getStrByPk(java.lang.String arg0 ,java.lang.String arg1  ,java.lang.String arg2  ,java.lang.String arg3 )</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>236</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>java.lang.String getPubInitSys(java.lang.String arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>237</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>java.lang.String getStrByPk1(java.lang.String arg0 ,java.lang.String arg1  ,java.lang.String arg2  ,java.lang.String arg3 )</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>238</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>java.lang.String getPkcorpByPkglorgbook(java.lang.String arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>239</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>java.lang.String[] getPkglorgbookByPkcorp(java.lang.String arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>240</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>nc.vo.bankpub.currrate.CurrrateVO[] readCurrRateFile(nc.vo.bankpub.systemtype.SystemTypeVO arg0 ,nc.vo.pub.lang.UFDate arg1 )</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>241</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void ExcuteUpdateSQL(java.lang.String arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>242</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>nc.vo.pub.lang.UFDate getServerDate()</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>243</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>nc.vo.bd.b02.AccsubjVO[] getNcAccsujVosByCondition(java.lang.String arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>244</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void deleteRespondCodeVOByVO(nc.vo.bankpub.respondcode.RespondCodeVO arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>245</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void insertArrayRespondCodeVO(nc.vo.bankpub.respondcode.RespondCodeVO[] arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>246</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>nc.vo.bankpub.respondcode.RespondCodeVO[] queryAllRespondCodeVOs()</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>247</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void updateRespondCodeVOByVO(nc.vo.bankpub.respondcode.RespondCodeVO arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>248</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>java.lang.String getRespondInfoByRespongCode(java.lang.String arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>249</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void insert(nc.vo.bankpub.eliminaterule.RuleSetVO arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>250</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void update(nc.vo.bankpub.eliminaterule.RuleSetVO arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>251</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void delByPK(java.lang.String arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>252</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void delBySystemPK(java.lang.String arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>253</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>nc.vo.bankpub.eliminaterule.RuleSetVO[] queryBySystemPK(java.lang.String arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>254</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void delValue(java.lang.String arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>255</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void insValue(nc.vo.bankpub.eliminaterule.EliminateRuleVO arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>256</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>nc.vo.bankpub.filedefine.FileDefineVO[] queryCols(java.lang.String arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>257</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>nc.vo.bankpub.eliminaterule.EliminateRuleVO[] queryValues(java.lang.String arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>258</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>nc.vo.bankpub.subjbalrule.SubjBalRuleVO[] importRules(java.lang.String arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>259</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void copySubjcontrast(java.lang.String arg0 ,java.lang.String[] arg1 )</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>260</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void clearSubjcontrast(java.lang.String arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>261</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>nc.vo.bankpub.subjcontrast.NCSubjContrastVO[] querySubjContrast(java.lang.String arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>262</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void copySubjcontrastFz(java.lang.String arg0 ,java.lang.String[] arg1 )</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>263</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>nc.vo.bankpub.subjcontrast.NCSubjContrastVO[] initSubjContrast(java.lang.String arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>264</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>java.lang.String[] insertSubjContrast(nc.vo.bankpub.subjcontrast.NCSubjContrastVO[] arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>265</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void updateSubjContrast(nc.vo.bankpub.subjcontrast.NCSubjContrastVO[] arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>266</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>nc.vo.bankpub.subjcontrast.NCSubjContrastVO[] queryAllSubjContrast()</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>267</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void deleteSubjAssConstrasts(nc.vo.bankpub.ncsubject.ass.SubjAssConstrastVO[] arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>268</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>nc.vo.bankpub.ncsubject.ass.SubjAssConstrastVO[] querySubjAssConstrastBy(java.lang.String arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>269</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>nc.vo.bankpub.ncsubject.ass.SubjAssConstrastVO[] saveSubjAssConstrast(nc.vo.bankpub.ncsubject.ass.SubjAssConstrastVO[] arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>270</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void deleteSystemTypeVOByVO(nc.vo.bankpub.systemtype.SystemTypeVO arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>271</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void insertArraySystemTypeVO(nc.vo.bankpub.systemtype.SystemTypeVO[] arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>272</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>nc.vo.bankpub.systemtype.SystemTypeVO[] queryAllSystemTypeVOs()</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>273</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void updateSystemTypeVOByVO(nc.vo.bankpub.systemtype.SystemTypeVO arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>274</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void deleteVoucherElementVOByVO(nc.vo.bankpub.voucherelement.VoucherElementVO arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>275</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void insertArrayVoucherElementVO(nc.vo.bankpub.voucherelement.VoucherElementVO[] arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>276</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>nc.vo.bankpub.voucherelement.VoucherElementVO[] queryAllVoucherElementVOs()</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>277</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void updateVoucherElementVOByVO(nc.vo.bankpub.voucherelement.VoucherElementVO arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>278</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void insertArrayVouTypeVO(nc.vo.bankpub.vouchertype.VouTypeVO[] arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>279</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>nc.vo.bankpub.vouchertype.VouTypeVO[] queryAllVouTypeVOs()</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>280</methodId>
+		</methodTransectionType>	
+		<methodTransectionType>
+			<methodName>void updateVouTypeVOByVO(nc.vo.bankpub.vouchertype.VouTypeVO arg0)</methodName>
+			<methodTransectionType>Required</methodTransectionType>
+			<methodIsolateLevel>TRANSECTION_READ_COMMITED</methodIsolateLevel>
+			<methodId>281</methodId>
+		</methodTransectionType>	
+		
+		<maxInstance>100</maxInstance>
+		<beCmt>true </beCmt>
+		<beCmp>true</beCmp>
+	</ejbBeans>
+</root>
